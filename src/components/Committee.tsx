@@ -200,12 +200,12 @@ const Committee = () => {
     },
     {
       name: "Prof. Navya S Murthy",
-      title: "Professor and Head, Department of Commerce",
+      title: "Professor and Head, Dept of Commerce",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Yashaswini",
-      title: "Professor and Head, Department of Business Administration",
+      title: "Professor and Head, Dept of Business Administration",
       institution: "SSCASC, Tumakuru"
     },
     {
@@ -215,7 +215,7 @@ const Committee = () => {
     },
     {
       name: "Sri Mallesh Babu",
-      title: "Assistant Professor, Department of Computer Science",
+      title: "Assistant Professor, Dept of Computer Science",
       institution: "SSCASCW, Tumakuru"
     }
   ];
