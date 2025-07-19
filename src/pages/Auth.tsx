@@ -104,8 +104,8 @@ const Auth = () => {
     setLoading(true);
 
     try {
-      // Get the current origin (works for both localhost and production)
-      const redirectUrl = `${window.location.origin}/auth/callback`;
+      // Use the correct Lovable domain for email redirect
+      const redirectUrl = 'https://ai-future-conference-hub.lovable.app/auth/callback';
       console.log('Redirect URL:', redirectUrl); // For debugging
 
       const { error } = await supabase.auth.signUp({
