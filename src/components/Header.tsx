@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, Download, Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import collegeLogo from '@/assets/college-logo.jpg';
+import aiLogo from '@/assets/ai-illustration.jpg';
 import brochurePdf from '@/assets/brochure.pdf';
 
 const Header = () => {
@@ -64,11 +64,11 @@ const Header = () => {
           {/* Logo and Title */}
           <div className="flex items-center space-x-3">
             <img
-              src={collegeLogo}
-              alt="College Logo"
-              className="h-10 w-10 lg:h-12 lg:w-12 rounded-full"
+              src={aiLogo}
+              alt="AI Conference Logo"
+              className="hidden md:block h-10 w-10 lg:h-12 lg:w-12 rounded-full"
             />
-            <div className="hidden md:block">
+            <div>
               <h1 className={`text-lg lg:text-xl font-bold ${isScrolled ? 'text-primary' : 'text-yellow-400'}`}>NCEAMBT 2025</h1>
             </div>
           </div>
@@ -143,8 +143,8 @@ const Header = () => {
               <div className="flex flex-col space-y-6 mt-8">
                 <div className="flex items-center space-x-3 pb-4 border-b">
                   <img
-                    src={collegeLogo}
-                    alt="College Logo"
+                    src={aiLogo}
+                    alt="AI Conference Logo"
                     className="h-10 w-10 rounded-full"
                   />
                   <div>
