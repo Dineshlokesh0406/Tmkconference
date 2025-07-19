@@ -21,6 +21,7 @@ import nanjundappaImg from '@/assets/Nanjundappa.jpg';
 import mahadevaprasannaImg from '@/assets/mahadevaprsanna.jpg';
 import jaisankarImg from '@/assets/Jaisankarn.webp';
 import sunithanrImg from '@/assets/Sunithanr.jpeg';
+import chiefPatronImg from '@/assets/s2.jpg';
 
 const Committee = () => {
   const keynoteData = [
@@ -265,8 +266,17 @@ const Committee = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <h3 className="text-xl font-bold text-primary mb-2">Sree Sree Siddalinga Swamiji</h3>
-              <p className="text-muted-foreground">President, Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</p>
+              <div className="flex flex-col items-center mb-4">
+                <div className="w-20 h-20 overflow-hidden rounded-full border-2 border-accent/30 mb-4">
+                  <img
+                    src={chiefPatronImg}
+                    alt="Sree Sree Siddalinga Swamiji"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-primary mb-2">Sree Sree Siddalinga Swamiji</h3>
+                <p className="text-muted-foreground">President, Sree Siddaganga Education Society, Siddaganga Math, Tumakuru</p>
+              </div>
             </CardContent>
           </Card>
 

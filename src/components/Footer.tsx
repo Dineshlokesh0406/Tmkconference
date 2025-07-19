@@ -12,10 +12,10 @@ const Footer = () => {
   ];
 
   const importantDates = [
-    { event: 'Paper Submission', date: '25.08.2025' },
-    { event: 'Acceptance Notification', date: '30.08.2025' },
-    { event: 'Camera-ready Submission', date: '10.09.2025' },
-    { event: 'Conference Dates', date: '26-27.09.2025' }
+    { event: 'Paper Submission', date: '25th Aug 2025' },
+    { event: 'Acceptance Notification', date: '30th Aug 2025' },
+    { event: 'Camera-ready Submission', date: '10th Sep 2025' },
+    { event: 'Conference Dates', date: '26th & 27th Sep 2025' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -129,15 +129,34 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-center md:text-left">
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0 lg:space-x-4">
+            <div className="text-center lg:text-left flex-1">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
-                © 2025 NCEAMBT - Sree Siddaganga College of Arts, Science & Commerce. All rights reserved.
+                © 2025 NCEAMBT - Dept of MCA, SIT, Tumkur. All rights reserved.
               </p>
             </div>
-            <div className="text-center md:text-right">
+            <div className="text-center flex-1">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
-                Sponsored by <span className="text-cyan-400 dark:text-blue-600 font-semibold">AICTE</span>
+                Developed by <a
+                  href="https://www.linkedin.com/in/dineshlokesh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                >
+                  Dinesh, MCA student, SIT
+                </a>
+              </p>
+            </div>
+            <div className="text-center lg:text-right flex-1">
+              <p className="text-gray-300 dark:text-gray-600 text-sm">
+                Sponsored by <a
+                  href="https://www.aicte.gov.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                >
+                  AICTE
+                </a>
               </p>
             </div>
           </div>
