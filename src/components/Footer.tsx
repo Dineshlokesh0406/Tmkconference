@@ -82,7 +82,7 @@ const Footer = () => {
               {importantDates.map((item, index) => (
                 <div key={index} className="flex justify-between items-center text-sm">
                   <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)]">{item.event}</span>
-                  <span className="text-cyan-400 dark:text-blue-600 font-mono">{item.date}</span>
+                  <span className="text-cyan-400 dark:text-blue-900 dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)] font-mono">{item.date}</span>
                 </div>
               ))}
             </div>
@@ -117,7 +117,7 @@ const Footer = () => {
                   href="https://www.sscasc.in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-cyan-400 dark:text-blue-600 hover:text-cyan-300 dark:hover:text-blue-800 transition-colors flex items-center space-x-1"
+                  className="text-cyan-400 dark:text-blue-900 dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)] hover:text-cyan-300 dark:hover:text-blue-800 transition-colors flex items-center space-x-1"
                 >
                   <span>Visit our website</span>
                   <ExternalLink size={12} />
@@ -141,7 +141,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/dineshlokesh/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                  className="text-cyan-400 dark:text-blue-900 dark:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
                 >
                   Dinesh, MCA student, SIT
                 </a>
@@ -153,7 +153,7 @@ const Footer = () => {
                   href="https://www.aicte.gov.in/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                  className="text-cyan-400 dark:text-blue-900 dark:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
                 >
                   AICTE
                 </a>
