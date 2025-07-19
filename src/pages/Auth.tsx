@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -17,17 +17,53 @@ const Auth = () => {
   const [lastName, setLastName] = useState('');
   const navigate = useNavigate();
   const { toast } = useToast();
+  const [searchParams] = useSearchParams();
 
   useEffect(() => {
-    // Check if user is already logged in
-    const checkUser = async () => {
+    // Handle email verification callback
+    const handleEmailVerification = async () => {
+      const error = searchParams.get('error');
+      const errorDescription = searchParams.get('error_description');
+
+      if (error) {
+        toast({
+          title: "Verification Error",
+          description: errorDescription || "Email verification failed. Please try signing up again.",
+          variant: "destructive",
+        });
+        // Clear the URL parameters
+        navigate('/auth', { replace: true });
+        return;
+      }
+
+      // Check if user is already logged in
       const { data: { session } } = await supabase.auth.getSession();
       if (session) {
+        toast({
+          title: "Success",
+          description: "Email verified successfully! Welcome to NCEAMBT 2025.",
+        });
         navigate('/dashboard');
       }
     };
-    checkUser();
-  }, [navigate]);
+
+    handleEmailVerification();
+
+    // Listen for auth state changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      if (event === 'SIGNED_IN' && session) {
+        toast({
+          title: "Success",
+          description: "Email verified successfully! Welcome to NCEAMBT 2025.",
+        });
+        navigate('/dashboard');
+      }
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, [navigate, searchParams, toast]);
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -72,7 +108,7 @@ const Auth = () => {
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/dashboard`,
+          emailRedirectTo: `${window.location.origin}/auth`,
           data: {
             first_name: firstName,
             last_name: lastName,
@@ -91,6 +127,11 @@ const Auth = () => {
           title: "Success",
           description: "Account created! Please check your email to verify your account.",
         });
+        // Clear the form
+        setEmail('');
+        setPassword('');
+        setFirstName('');
+        setLastName('');
       }
     } catch (error) {
       toast({
