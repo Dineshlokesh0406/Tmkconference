@@ -38,34 +38,34 @@ const Footer = () => {
                 className="h-12 w-12 rounded-full"
               />
               <div>
-                <h3 className="text-xl font-bold text-white dark:text-gray-900">NCEAMBT 2025</h3>
-                <p className="text-sm text-gray-200 dark:text-gray-700">AICTE Sponsored Conference</p>
+                <h3 className="text-xl font-bold text-white dark:text-black dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">NCEAMBT 2025</h3>
+                <p className="text-sm text-gray-200 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.6)]">AICTE Sponsored Conference</p>
               </div>
             </div>
-            <p className="text-gray-200 dark:text-gray-700 leading-relaxed mb-6">
+            <p className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)] leading-relaxed mb-6">
               Exploring AI and ML for Better Tomorrow - A two-day national conference bringing together researchers, academicians, and industry experts.
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Calendar size={16} className="text-cyan-400 dark:text-blue-600" />
-                <span className="text-gray-200 dark:text-gray-800">26th - 27th September 2025</span>
+                <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)]">26th - 27th September 2025</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-cyan-400 dark:text-blue-600" />
-                <span className="text-gray-200 dark:text-gray-800">Tumakuru, Karnataka</span>
+                <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)]">Tumakuru, Karnataka</span>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white dark:text-gray-900 mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white dark:text-black dark:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <button
                     onClick={() => scrollToSection(link.href)}
-                    className="text-gray-200 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-blue-600 transition-colors duration-200 text-sm flex items-center space-x-1"
+                    className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)] hover:text-cyan-400 dark:hover:text-blue-600 transition-colors duration-200 text-sm flex items-center space-x-1"
                   >
                     <span>{link.label}</span>
                     <ExternalLink size={12} />
@@ -77,11 +77,11 @@ const Footer = () => {
 
           {/* Important Dates */}
           <div>
-            <h4 className="text-lg font-semibold text-white dark:text-gray-900 mb-4">Important Dates</h4>
+            <h4 className="text-lg font-semibold text-white dark:text-black dark:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] mb-4">Important Dates</h4>
             <div className="space-y-3">
               {importantDates.map((item, index) => (
                 <div key={index} className="flex justify-between items-center text-sm">
-                  <span className="text-gray-200 dark:text-gray-700">{item.event}</span>
+                  <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)]">{item.event}</span>
                   <span className="text-cyan-400 dark:text-blue-600 font-mono">{item.date}</span>
                 </div>
               ))}
@@ -90,11 +90,11 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div>
-            <h4 className="text-lg font-semibold text-white dark:text-gray-900 mb-4">Contact Us</h4>
+            <h4 className="text-lg font-semibold text-white dark:text-black dark:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] mb-4">Contact Us</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <MapPin size={16} className="text-cyan-400 dark:text-blue-600 mt-1 flex-shrink-0" />
-                <span className="text-gray-200 dark:text-gray-700">
+                <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)]">
                   Sree Siddaganga College of Arts, Science & Commerce<br />
                   B.H. Road, Tumakuru, Karnataka - 572102
                 </span>
@@ -103,14 +103,14 @@ const Footer = () => {
                 <Mail size={16} className="text-cyan-400 dark:text-blue-600" />
                 <a
                   href="mailto:sscasc.cs.conference@gmail.com"
-                  className="text-gray-200 dark:text-gray-700 hover:text-cyan-400 dark:hover:text-blue-600 transition-colors"
+                  className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)] hover:text-cyan-400 dark:hover:text-blue-600 transition-colors"
                 >
                   sscasc.cs.conference@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} className="text-cyan-400 dark:text-blue-600" />
-                <span className="text-gray-200 dark:text-gray-700">+91 9632246106</span>
+                <span className="text-gray-200 dark:text-black dark:drop-shadow-[0_0_3px_rgba(255,255,255,0.4)]">+91 9632246106</span>
               </div>
               <div className="pt-2">
                 <a
@@ -131,12 +131,12 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0 lg:space-x-4">
             <div className="text-center lg:text-left flex-1">
-              <p className="text-gray-300 dark:text-gray-600 text-sm">
+              <p className="text-gray-300 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)] text-sm">
                 © 2025 NCEAMBT - Dept of MCA, SIT, Tumkur. All rights reserved.
               </p>
             </div>
             <div className="text-center flex-1">
-              <p className="text-gray-300 dark:text-gray-600 text-sm">
+              <p className="text-gray-300 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)] text-sm">
                 Developed by <a
                   href="https://www.linkedin.com/in/dineshlokesh/"
                   target="_blank"
@@ -148,7 +148,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="text-center lg:text-right flex-1">
-              <p className="text-gray-300 dark:text-gray-600 text-sm">
+              <p className="text-gray-300 dark:text-black dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.5)] text-sm">
                 Sponsored by <a
                   href="https://www.aicte.gov.in/"
                   target="_blank"
