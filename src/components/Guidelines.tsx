@@ -144,16 +144,6 @@ const Guidelines = () => {
           {/* Publication Ethics Tab */}
           <TabsContent value="publication-ethics">
             <div className="space-y-8">
-              <Card className="card-conference">
-                <CardHeader>
-                  <CardTitle className="text-xl text-primary">COPE Standards Compliance</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-6">
-                    This conference adheres to the Committee on Publication Ethics (COPE) standards to ensure the highest level of publication integrity and ethical conduct.
-                  </p>
-                </CardContent>
-              </Card>
 
               <div className="grid md:grid-cols-3 gap-6">
                 <Card className="card-conference">
