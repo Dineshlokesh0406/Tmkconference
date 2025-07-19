@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import aiLogo from '@/assets/ai-illustration.jpg';
 import brochurePdf from '@/assets/brochure.pdf';
+import posterPdf from '@/assets/Poster.pdf';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -121,6 +122,19 @@ const Header = () => {
               <Download size={16} />
               <span>Brochure</span>
             </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              className={`space-x-2 rounded-lg transition-all duration-300 hover:scale-105 ${
+                isScrolled
+                  ? 'border-border hover:bg-accent text-foreground'
+                  : 'border-white bg-white/90 text-black hover:bg-white hover:text-black'
+              }`}
+              onClick={() => window.open(posterPdf, '_blank')}
+            >
+              <Download size={16} />
+              <span>Poster</span>
+            </Button>
 
           </div>
 
@@ -180,6 +194,14 @@ const Header = () => {
                   >
                     <Download size={16} />
                     <span>Download Brochure</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(posterPdf, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Download Poster</span>
                   </Button>
 
                 </div>
