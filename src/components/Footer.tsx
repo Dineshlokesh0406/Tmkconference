@@ -1,5 +1,5 @@
 import { Calendar, MapPin, Mail, Phone, ExternalLink } from 'lucide-react';
-import collegeLogo from '@/assets/college-logo.jpg';
+import aiLogo from '@/assets/ai-illustration.jpg';
 
 const Footer = () => {
   const quickLinks = [
@@ -32,9 +32,9 @@ const Footer = () => {
           {/* Conference Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <img 
-                src={collegeLogo} 
-                alt="College Logo" 
+              <img
+                src={aiLogo}
+                alt="AI Conference Logo"
                 className="h-12 w-12 rounded-full"
               />
               <div>

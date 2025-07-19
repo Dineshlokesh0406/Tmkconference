@@ -25,8 +25,7 @@ const Header = () => {
 
     // Check for saved theme preference or default to light mode
     const savedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const shouldBeDark = savedTheme ? savedTheme === 'dark' : prefersDark;
+    const shouldBeDark = savedTheme === 'dark';
 
     setIsDark(shouldBeDark);
     document.documentElement.classList.toggle('dark', shouldBeDark);
