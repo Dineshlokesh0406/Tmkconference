@@ -4,6 +4,13 @@ import shreedharImg from '@/assets/shreedhar.png';
 import dileepImg from '@/assets/dileep.png';
 import maheshImg from '@/assets/mahesh.png';
 import rajanImg from '@/assets/rajan.png';
+import deepakImg from '@/assets/deepak.jpeg';
+import dileepAdImg from '@/assets/dileepad.jpg';
+import padmavathyImg from '@/assets/padmavathy.jpg';
+import paramashivaiahImg from '@/assets/paramashivaiah.jpg';
+import premasudhaImg from '@/assets/premasudha.jpg';
+import sunilsaumyaImg from '@/assets/sunilsaumya.jpeg';
+import surendiranImg from '@/assets/surendrian.jpeg';
 
 const Committee = () => {
   const keynoteData = [
@@ -37,22 +44,26 @@ const Committee = () => {
     {
       name: "Dr. Dileep A.D.",
       title: "Professor, Dept. of Computer Science and Engineering & Dean Administration",
-      institution: "Indian Institute of Technology, Dharwad"
+      institution: "Indian Institute of Technology, Dharwad",
+      image: dileepAdImg
     },
     {
       name: "Dr. R. Padmavathy",
       title: "Professor & Former HoD, Dept. of Computer Science and Engineering",
-      institution: "National Institute of Technology, Warangal"
+      institution: "National Institute of Technology, Warangal",
+      image: padmavathyImg
     },
     {
       name: "Dr. Deepak K.T.",
       title: "Associate Dean - Research and Development [R&D]",
-      institution: "Indian Institute of Information Technology, Dharwad"
+      institution: "Indian Institute of Information Technology, Dharwad",
+      image: deepakImg
     },
     {
       name: "Dr. Sunil Saumya",
       title: "Associate Dean (Academics)",
-      institution: "Indian Institute of Information Technology, Dharwad"
+      institution: "Indian Institute of Information Technology, Dharwad",
+      image: sunilsaumyaImg
     },
     {
       name: "Dr. Jaisankar N.",
@@ -62,17 +73,20 @@ const Committee = () => {
     {
       name: "Dr. B. Surendiran",
       title: "Asso. Professor, Dept of CSE",
-      institution: "NIT Puducherry, Thiruvettakudy, Karaikal, Puducherry"
+      institution: "NIT Puducherry, Thiruvettakudy, Karaikal, Puducherry",
+      image: surendiranImg
     },
     {
       name: "Prof. P. Paramashivaiah",
       title: "Professor, Dept. of Commerce and Management",
-      institution: "Tumkur University"
+      institution: "Tumkur University",
+      image: paramashivaiahImg
     },
     {
       name: "Dr. Premasudha B.G.",
       title: "HOD, Dept. of MCA",
-      institution: "SIT, Tumakuru"
+      institution: "SIT, Tumakuru",
+      image: premasudhaImg
     },
     {
       name: "Dr. Sunitha N.R.",
@@ -337,9 +351,19 @@ const Committee = () => {
               <Card key={index} className="card-conference">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-primary font-bold text-lg">{index + 1}</span>
-                    </div>
+                    {member.image ? (
+                      <div className="w-12 h-12 overflow-hidden rounded-full border-2 border-primary/20 flex-shrink-0">
+                        <img
+                          src={member.image}
+                          alt={member.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    ) : (
+                      <div className="w-12 h-12 bg-gradient-to-br from-accent/20 to-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
+                        <span className="text-primary font-bold text-lg">{index + 1}</span>
+                      </div>
+                    )}
                     <div className="flex-1">
                       <h4 className="font-bold text-foreground mb-1">{member.name}</h4>
                       <p className="text-sm font-medium text-secondary mb-2">{member.title}</p>
