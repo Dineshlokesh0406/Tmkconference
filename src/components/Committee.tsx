@@ -53,13 +53,13 @@ const Committee = () => {
   const advisoryCommittee = [
     {
       name: "Dr. Dileep A.D.",
-      title: "Professor, Department of Computer Science and Engineering & Dean Administration",
+      title: "Professor, Dept of Computer Science and Engineering & Dean Administration",
       institution: "Indian Institute of Technology, Dharwad",
       image: dileepAdImg
     },
     {
       name: "Dr. R. Padmavathy",
-      title: "Professor & Former Head, Department of Computer Science and Engineering",
+      title: "Professor & Former Head, Dept of Computer Science and Engineering",
       institution: "National Institute of Technology, Warangal",
       image: padmavathyImg
     },
@@ -77,7 +77,7 @@ const Committee = () => {
     },
     {
       name: "Dr. Jaisankar N.",
-      title: "Professor, Higher Academic Grade, School of Computer Science and Engineering, Department of Software Systems",
+      title: "Professor, Higher Academic Grade, School of Computer Science and Engineering, Dept of Software Systems",
       institution: "VIT, Vellore",
       image: jaisankarImg
     },
@@ -89,19 +89,19 @@ const Committee = () => {
     },
     {
       name: "Prof. P. Paramashivaiah",
-      title: "Professor, Department of Commerce and Management",
+      title: "Professor, Dept of Commerce and Management",
       institution: "Tumkur University",
       image: paramashivaiahImg
     },
     {
       name: "Dr. Premasudha B.G.",
-      title: "Professor and Head, Department of MCA",
+      title: "Professor and Head, Dept of MCA",
       institution: "SIT, Tumakuru",
       image: premasudhaImg
     },
     {
       name: "Dr. Sunitha N.R.",
-      title: "Professor and Head, Department of Computer Science and Engineering",
+      title: "Professor and Head, Dept of Computer Science and Engineering",
       institution: "SIT, Tumakuru",
       image: sunithanrImg
     }
@@ -135,47 +135,47 @@ const Committee = () => {
     },
     {
       name: "Dr. Vijay Kumar H S",
-      title: "Assistant Professor, Department of MCA",
+      title: "Assistant Professor, Dept of MCA",
       institution: "SIT, Tumakuru"
     },
     {
       name: "Dr. Prashanth G K",
-      title: "Assistant Professor, Department of MCA",
+      title: "Assistant Professor, Dept of MCA",
       institution: "SIT, Tumakuru"
     },
     {
       name: "Mahesha S",
-      title: "Professor and Head, Department of Computer Science",
+      title: "Professor and Head, Dept of Computer Science",
       institution: "SSCASCW, Tumakuru"
     },
     {
       name: "K S Lingadevarappa",
-      title: "Professor and Head, Department of Computer Science",
+      title: "Professor and Head, Dept of Computer Science",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Shylesha B S",
-      title: "Professor and Head, Department of Chemistry",
+      title: "Professor and Head, Dept of Chemistry",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Padmaja Y M",
-      title: "Professor and Head, Department of Kannada",
+      title: "Professor and Head, Dept of Kannada",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Revanasiddappa",
-      title: "Professor and Head, Department of Physics",
+      title: "Professor and Head, Dept of Physics",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Hanumantharayappa",
-      title: "Professor and Head, Department of Mathematics",
+      title: "Professor and Head, Dept of Mathematics",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Chandrashekaraiah",
-      title: "Professor and Head, Department of History",
+      title: "Professor and Head, Dept of History",
       institution: "SSCASC, Tumakuru"
     },
     {
@@ -185,17 +185,17 @@ const Committee = () => {
     },
     {
       name: "Prof. Rathnamma Y S",
-      title: "Professor and Head, Department of PG Studies in Commerce",
+      title: "Professor and Head, Dept of PG Studies in Commerce",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Uday Kumar",
-      title: "Director, Department of Physical Education",
+      title: "Director, Dept of Physical Education",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Sowmya L",
-      title: "Professor and Head, Department of Bio technology",
+      title: "Professor and Head, Dept of Bio technology",
       institution: "SSCASC, Tumakuru"
     },
     {
