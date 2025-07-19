@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
-import { Menu, Download, Sun, Moon } from 'lucide-react';
+import { Menu, Download, Sun, Moon, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import aiLogo from '@/assets/ai-illustration.jpg';
 import brochurePdf from '@/assets/brochure.pdf';
 import posterPdf from '@/assets/Poster.pdf';
@@ -109,32 +115,39 @@ const Header = () => {
             >
               {isDark ? <Sun size={16} /> : <Moon size={16} />}
             </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className={`space-x-2 rounded-lg transition-all duration-300 hover:scale-105 ${
-                isScrolled
-                  ? 'border-border hover:bg-accent text-foreground'
-                  : 'border-white bg-white/90 text-black hover:bg-white hover:text-black'
-              }`}
-              onClick={() => window.open(brochurePdf, '_blank')}
-            >
-              <Download size={16} />
-              <span>Brochure</span>
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className={`space-x-2 rounded-lg transition-all duration-300 hover:scale-105 ${
-                isScrolled
-                  ? 'border-border hover:bg-accent text-foreground'
-                  : 'border-white bg-white/90 text-black hover:bg-white hover:text-black'
-              }`}
-              onClick={() => window.open(posterPdf, '_blank')}
-            >
-              <Download size={16} />
-              <span>Poster</span>
-            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className={`space-x-2 rounded-lg transition-all duration-300 hover:scale-105 ${
+                    isScrolled
+                      ? 'border-border hover:bg-accent text-foreground'
+                      : 'border-white bg-white/90 text-black hover:bg-white hover:text-black'
+                  }`}
+                >
+                  <Download size={16} />
+                  <span>Downloads</span>
+                  <ChevronDown size={14} />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                <DropdownMenuItem
+                  onClick={() => window.open(brochurePdf, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Conference Brochure
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(posterPdf, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Conference Poster
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
 
           </div>
 
@@ -193,7 +206,7 @@ const Header = () => {
                     onClick={() => window.open(brochurePdf, '_blank')}
                   >
                     <Download size={16} />
-                    <span>Download Brochure</span>
+                    <span>Conference Brochure</span>
                   </Button>
                   <Button
                     variant="outline"
@@ -201,7 +214,7 @@ const Header = () => {
                     onClick={() => window.open(posterPdf, '_blank')}
                   >
                     <Download size={16} />
-                    <span>Download Poster</span>
+                    <span>Conference Poster</span>
                   </Button>
 
                 </div>
