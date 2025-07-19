@@ -104,11 +104,15 @@ const Auth = () => {
     setLoading(true);
 
     try {
+      // Get the current origin (works for both localhost and production)
+      const redirectUrl = `${window.location.origin}/auth/callback`;
+      console.log('Redirect URL:', redirectUrl); // For debugging
+
       const { error } = await supabase.auth.signUp({
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/auth`,
+          emailRedirectTo: redirectUrl,
           data: {
             first_name: firstName,
             last_name: lastName,
