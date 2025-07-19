@@ -1,27 +1,35 @@
 import { Crown, Star, Users, Mic } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import shreedharImg from '@/assets/shreedhar.png';
+import dileepImg from '@/assets/dileep.png';
+import maheshImg from '@/assets/mahesh.png';
+import rajanImg from '@/assets/rajan.png';
 
 const Committee = () => {
   const keynoteData = [
     {
       name: "Dr. Shreedhara K S",
       title: "Professor of CSE",
-      institution: "University BDT College of Engineering, Davanagere, Karnataka"
+      institution: "University BDT College of Engineering, Davanagere, Karnataka",
+      image: shreedharImg
     },
     {
       name: "Dr. Dilip Kumar S M",
       title: "Professor in Computer Science Engineering",
-      institution: "University Visvesvaraya College of Engineering, Bangalore"
+      institution: "University Visvesvaraya College of Engineering, Bangalore",
+      image: dileepImg
     },
     {
       name: "Dr. Mahesha BR Pandit",
       title: "Chief Technology Officer",
-      institution: "Canarys Automations Limited, Bangalore"
+      institution: "Canarys Automations Limited, Bangalore",
+      image: maheshImg
     },
     {
       name: "Dr. M A Rajan",
       title: "Principal Scientist, Applied Cryptography Group",
-      institution: "Tata Consultancy Services, Bangalore"
+      institution: "Tata Consultancy Services, Bangalore",
+      image: rajanImg
     }
   ];
 
@@ -301,8 +309,12 @@ const Committee = () => {
             {keynoteData.map((speaker, index) => (
               <Card key={index} className="card-conference text-center">
                 <CardContent className="p-6">
-                  <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Mic className="text-primary" size={32} />
+                  <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-full border-2 border-primary/20">
+                    <img
+                      src={speaker.image}
+                      alt={speaker.name}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h4 className="font-bold text-lg text-primary mb-2">{speaker.name}</h4>
                   <p className="text-sm font-medium text-secondary mb-2">{speaker.title}</p>

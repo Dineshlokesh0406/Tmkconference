@@ -5,6 +5,7 @@ import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import collegeLogo from '@/assets/college-logo.jpg';
+import brochurePdf from '@/assets/brochure.pdf';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -144,6 +145,7 @@ const Header = () => {
                   ? 'border-border hover:bg-accent text-foreground'
                   : 'border-white bg-white/90 text-black hover:bg-white hover:text-black'
               }`}
+              onClick={() => window.open(brochurePdf, '_blank')}
             >
               <Download size={16} />
               <span>Brochure</span>
@@ -257,7 +259,11 @@ const Header = () => {
                     {isDark ? <Sun size={16} /> : <Moon size={16} />}
                     <span>{isDark ? "Light Mode" : "Dark Mode"}</span>
                   </Button>
-                  <Button variant="outline" className="space-x-2 justify-start">
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(brochurePdf, '_blank')}
+                  >
                     <Download size={16} />
                     <span>Download Brochure</span>
                   </Button>

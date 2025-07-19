@@ -7,6 +7,7 @@ import aicteLogo from '@/assets/aicte-logo.png.jpg';
 import s1Image from '@/assets/s1.jpg';
 import s2Image from '@/assets/s2.jpg';
 import collegeLogo from '@/assets/college-logo.jpg';
+import brochurePdf from '@/assets/brochure.pdf';
 
 const HeroSection = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -157,6 +158,7 @@ const HeroSection = () => {
             <Button
               size="lg"
               className="bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-black font-bold text-lg px-10 py-4 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-105 hover:shadow-yellow-500/25"
+              onClick={() => window.open('https://forms.gle/4qdeUiRbUCpaTs88A', '_blank')}
             >
               Register Now
             </Button>
@@ -174,6 +176,7 @@ const HeroSection = () => {
               size="lg"
               variant="outline"
               className="text-white border-2 border-white/50 hover:bg-white hover:text-primary text-lg px-10 py-4 rounded-xl backdrop-blur-sm bg-white/10 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              onClick={() => window.open(brochurePdf, '_blank')}
             >
               Download Brochure
             </Button>
