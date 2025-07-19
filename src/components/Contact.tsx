@@ -1,26 +1,32 @@
 import React from 'react';
 import { MapPin, Phone, Mail, User, Clock } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import mamathaImg from '@/assets/Mamatha.jpg';
+import sowjanyaImg from '@/assets/Sowjanya.jpg';
+import lingadevaruImg from '@/assets/lingadevaru.jpg';
 
 const Contact: React.FC = () => {
   const contactPersons = [
     {
       name: "K S Lingadevarappa",
-      role: "HOD",
+      role: "Professor and Head",
       phone: "9632246106",
-      icon: User
+      icon: User,
+      image: lingadevaruImg
     },
     {
       name: "Mamatha M",
       role: "Coordinator",
       phone: "7892605749",
-      icon: User
+      icon: User,
+      image: mamathaImg
     },
     {
       name: "Sowjanya G",
       role: "Co-coordinator",
       phone: "9738120370",
-      icon: User
+      icon: User,
+      image: sowjanyaImg
     }
   ];
 
@@ -127,8 +133,12 @@ const Contact: React.FC = () => {
                   {contactPersons.map((person, index) => (
                     <div key={index} className="flex items-center justify-between p-4 bg-muted/50 rounded-lg">
                       <div className="flex items-center space-x-3">
-                        <div className="p-2 bg-secondary/20 rounded-full">
-                          <person.icon className="text-secondary" size={20} />
+                        <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30">
+                          <img
+                            src={person.image}
+                            alt={person.name}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
                         <div>
                           <h4 className="font-semibold text-foreground">{person.name}</h4>

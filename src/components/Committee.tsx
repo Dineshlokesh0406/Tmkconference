@@ -11,6 +11,16 @@ import paramashivaiahImg from '@/assets/paramashivaiah.jpg';
 import premasudhaImg from '@/assets/premasudha.jpg';
 import sunilsaumyaImg from '@/assets/sunilsaumya.jpeg';
 import surendiranImg from '@/assets/surendrian.jpeg';
+import mamathaImg from '@/assets/Mamatha.jpg';
+import nijalingappaImg from '@/assets/Nijalingappa .jpg';
+import sowjanyaImg from '@/assets/Sowjanya.jpg';
+import yogeshwarappaImg from '@/assets/Yogeshwarappa.jpg';
+import lingadevaruImg from '@/assets/lingadevaru.jpg';
+import shivakumaraiahImg from '@/assets/Dr-Shivakumaraiah.jpg';
+import nanjundappaImg from '@/assets/Nanjundappa.jpg';
+import mahadevaprasannaImg from '@/assets/mahadevaprsanna.jpg';
+import jaisankarImg from '@/assets/Jaisankarn.webp';
+import sunithanrImg from '@/assets/Sunithanr.jpeg';
 
 const Committee = () => {
   const keynoteData = [
@@ -43,13 +53,13 @@ const Committee = () => {
   const advisoryCommittee = [
     {
       name: "Dr. Dileep A.D.",
-      title: "Professor, Dept. of Computer Science and Engineering & Dean Administration",
+      title: "Professor, Department of Computer Science and Engineering & Dean Administration",
       institution: "Indian Institute of Technology, Dharwad",
       image: dileepAdImg
     },
     {
       name: "Dr. R. Padmavathy",
-      title: "Professor & Former HoD, Dept. of Computer Science and Engineering",
+      title: "Professor & Former Head, Department of Computer Science and Engineering",
       institution: "National Institute of Technology, Warangal",
       image: padmavathyImg
     },
@@ -67,8 +77,9 @@ const Committee = () => {
     },
     {
       name: "Dr. Jaisankar N.",
-      title: "Professor, Higher Academic Grade, School of Computer Science and Engineering, Dept. of Software Systems",
-      institution: "VIT, Vellore"
+      title: "Professor, Higher Academic Grade, School of Computer Science and Engineering, Department of Software Systems",
+      institution: "VIT, Vellore",
+      image: jaisankarImg
     },
     {
       name: "Dr. B. Surendiran",
@@ -78,20 +89,21 @@ const Committee = () => {
     },
     {
       name: "Prof. P. Paramashivaiah",
-      title: "Professor, Dept. of Commerce and Management",
+      title: "Professor, Department of Commerce and Management",
       institution: "Tumkur University",
       image: paramashivaiahImg
     },
     {
       name: "Dr. Premasudha B.G.",
-      title: "HOD, Dept. of MCA",
+      title: "Professor and Head, Department of MCA",
       institution: "SIT, Tumakuru",
       image: premasudhaImg
     },
     {
       name: "Dr. Sunitha N.R.",
-      title: "HOD, Dept. of Computer Science and Engineering",
-      institution: "SIT, Tumakuru"
+      title: "Professor and Head, Department of Computer Science and Engineering",
+      institution: "SIT, Tumakuru",
+      image: sunithanrImg
     }
   ];
 
@@ -108,12 +120,12 @@ const Committee = () => {
     },
     {
       name: "Dr. R Aparna",
-      title: "Professor & HOD, Dept. of Information Science and Engineering",
+      title: "Professor and Head, Dept of Information Science and Engineering",
       institution: "SIT, Tumakuru"
     },
     {
       name: "Dr. Kusuma Kumari B M",
-      title: "Coordinator, Dept. PG studies in Computer Science",
+      title: "Coordinator, Department of PG Studies in Computer Science",
       institution: "Tumkur University, Tumakuru"
     },
     {
@@ -123,47 +135,47 @@ const Committee = () => {
     },
     {
       name: "Dr. Vijay Kumar H S",
-      title: "Assistant Professor, Dept. of MCA",
+      title: "Assistant Professor, Department of MCA",
       institution: "SIT, Tumakuru"
     },
     {
       name: "Dr. Prashanth G K",
-      title: "Assistant Professor, Dept. of MCA",
+      title: "Assistant Professor, Department of MCA",
       institution: "SIT, Tumakuru"
     },
     {
       name: "Mahesha S",
-      title: "HOD, Dept. of Computer Science",
+      title: "Professor and Head, Department of Computer Science",
       institution: "SSCASCW, Tumakuru"
     },
     {
       name: "K S Lingadevarappa",
-      title: "HOD, Dept. of Computer Science",
+      title: "Professor and Head, Department of Computer Science",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Shylesha B S",
-      title: "HOD, Dept. of Chemistry",
+      title: "Professor and Head, Department of Chemistry",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Padmaja Y M",
-      title: "HOD, Dept. of Kannada",
+      title: "Professor and Head, Department of Kannada",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Revanasiddappa",
-      title: "HOD, Dept. of Physics",
+      title: "Professor and Head, Department of Physics",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Hanumantharayappa",
-      title: "HOD, Dept. of Mathematics",
+      title: "Professor and Head, Department of Mathematics",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Dr. Chandrashekaraiah",
-      title: "HOD, Dept. of History",
+      title: "Professor and Head, Department of History",
       institution: "SSCASC, Tumakuru"
     },
     {
@@ -173,27 +185,27 @@ const Committee = () => {
     },
     {
       name: "Prof. Rathnamma Y S",
-      title: "HOD, Dept. of PG Studies in Commerce",
+      title: "Professor and Head, Department of PG Studies in Commerce",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Uday Kumar",
-      title: "Director, Dept. of Physical Education",
+      title: "Director, Department of Physical Education",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Sowmya L",
-      title: "HOD, Dept. of Bio technology",
+      title: "Professor and Head, Department of Bio technology",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Navya S Murthy",
-      title: "HOD, Dept. of Commerce",
+      title: "Professor and Head, Department of Commerce",
       institution: "SSCASC, Tumakuru"
     },
     {
       name: "Prof. Yashaswini",
-      title: "HOD, Dept. of Business Administration",
+      title: "Professor and Head, Department of Business Administration",
       institution: "SSCASC, Tumakuru"
     },
     {
@@ -203,8 +215,29 @@ const Committee = () => {
     },
     {
       name: "Sri Mallesh Babu",
-      title: "Asst. Professor, Dept. of Computer Science",
+      title: "Assistant Professor, Department of Computer Science",
       institution: "SSCASCW, Tumakuru"
+    }
+  ];
+
+  const conferenceOrganizers = [
+    {
+      name: "Dr. Kusuma Kumari B M",
+      title: "Coordinator, Dept PG studies in Computer Science",
+      institution: "Tumkur University, Tumakuru",
+      image: mamathaImg
+    },
+    {
+      name: "K S Lingadevarappa",
+      title: "HOD, Dept. of Computer Science",
+      institution: "SSCASC, Tumakuru",
+      image: lingadevaruImg
+    },
+    {
+      name: "Prof. Sowmya L",
+      title: "HOD, Dept. of Bio technology",
+      institution: "SSCASC, Tumakuru",
+      image: sowjanyaImg
     }
   ];
 
@@ -247,8 +280,17 @@ const Committee = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <h4 className="font-bold text-foreground mb-1">Sri T K Nanjundappa</h4>
-                <p className="text-sm text-muted-foreground">Hon. Secretary, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                <div className="flex flex-col items-center mb-2">
+                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                    <img
+                      src={nanjundappaImg}
+                      alt="Sri T K Nanjundappa"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-1">Sri T K Nanjundappa</h4>
+                  <p className="text-sm text-muted-foreground">Hon. Secretary, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -260,8 +302,17 @@ const Committee = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <h4 className="font-bold text-foreground mb-1">Dr. Shivakumaraiah</h4>
-                <p className="text-sm text-muted-foreground">Joint Secretary, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                <div className="flex flex-col items-center mb-2">
+                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                    <img
+                      src={shivakumaraiahImg}
+                      alt="Dr. Shivakumaraiah"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-1">Dr. Shivakumaraiah</h4>
+                  <p className="text-sm text-muted-foreground">Joint Secretary, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -273,8 +324,17 @@ const Committee = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <h4 className="font-bold text-foreground mb-1">Dr. D N Yogeeshwarappa</h4>
-                <p className="text-sm text-muted-foreground">Coordinator for Degree Colleges, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                <div className="flex flex-col items-center mb-2">
+                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                    <img
+                      src={yogeshwarappaImg}
+                      alt="Dr. D N Yogeeshwarappa"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-1">Dr. D N Yogeeshwarappa</h4>
+                  <p className="text-sm text-muted-foreground">Coordinator for Degree Colleges, Sree Siddaganga Education Society, Sree Siddaganga Math, Tumakuru</p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -289,8 +349,17 @@ const Committee = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <h3 className="text-lg font-bold text-primary mb-2">Dr. T B Nijalingappa</h3>
-                <p className="text-muted-foreground">Principal, Sree Siddaganga College of Arts, Science and Commerce, Tumakuru</p>
+                <div className="flex flex-col items-center mb-4">
+                  <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-accent/30 mb-3">
+                    <img
+                      src={nijalingappaImg}
+                      alt="Dr. T B Nijalingappa"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-primary mb-2">Dr. T B Nijalingappa</h3>
+                  <p className="text-muted-foreground">Principal, Sree Siddaganga College of Arts, Science and Commerce, Tumakuru</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -302,8 +371,17 @@ const Committee = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <h3 className="text-lg font-bold text-primary mb-2">Dr. S.R. Mahadeva Prasanna</h3>
-                <p className="text-muted-foreground">Director, IIIT, Dharwad</p>
+                <div className="flex flex-col items-center mb-4">
+                  <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-teal-300 mb-3">
+                    <img
+                      src={mahadevaprasannaImg}
+                      alt="Dr. S.R. Mahadeva Prasanna"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-primary mb-2">Dr. S.R. Mahadeva Prasanna</h3>
+                  <p className="text-muted-foreground">Director, IIIT, Dharwad</p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -323,7 +401,7 @@ const Committee = () => {
             {keynoteData.map((speaker, index) => (
               <Card key={index} className="card-conference text-center">
                 <CardContent className="p-6">
-                  <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-full border-2 border-primary/20">
+                  <div className="w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full border-2 border-primary/20">
                     <img
                       src={speaker.image}
                       alt={speaker.name}
@@ -352,7 +430,7 @@ const Committee = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     {member.image ? (
-                      <div className="w-12 h-12 overflow-hidden rounded-full border-2 border-primary/20 flex-shrink-0">
+                      <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-primary/20 flex-shrink-0">
                         <img
                           src={member.image}
                           alt={member.name}
