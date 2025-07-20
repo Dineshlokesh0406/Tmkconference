@@ -58,22 +58,22 @@ const HeroSection = () => {
       }}
     >
       {/* AICTE Sponsored Badge with Images - Positioned below navbar */}
-      <div className="absolute top-20 xs:top-24 sm:top-28 md:top-32 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in px-2">
+      <div className="absolute top-16 xs:top-20 sm:top-24 md:top-28 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in px-2">
         <div className="flex items-center justify-center space-x-1 xs:space-x-2 sm:space-x-3 md:space-x-4">
           {/* AICTE Logo */}
           <img
               src={aicteLogo}
-              alt="College Logo"
-              className="h-12 w-12 lg:h-12 lg:w-12 rounded-full"
+              alt="AICTE Logo"
+              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
             />
-          
+
           {/* S1 Image */}
           <img
               src={s1Image}
-              alt="College Logo"
-              className="h-12 w-12 lg:h-12 lg:w-12 rounded-full"
+              alt="S1 Image"
+              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
             />
-          
+
 
           {/* AICTE SPONSORED Text */}
           <div className="inline-flex items-center bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-2 py-0.5 xs:px-3 xs:py-1 sm:px-4 sm:py-2 md:px-6 md:py-2 rounded-full shadow-lg">
@@ -83,16 +83,16 @@ const HeroSection = () => {
           {/* S2 Image */}
           <img
               src={s2Image}
-              alt="College Logo"
-              className="h-12 w-12 lg:h-12 lg:w-12 rounded-full"
+              alt="S2 Image"
+              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
             />
 
           {/* College Logo */}
-          
+
           <img
               src={collegeLogo}
               alt="College Logo"
-              className="h-12 w-12 lg:h-12 lg:w-12 rounded-full"
+              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
             />
         </div>
       </div>
@@ -100,14 +100,14 @@ const HeroSection = () => {
 
 
       {/* Hero Content */}
-      <div className="container mx-auto px-2 xs:px-4 text-center text-white relative z-10 pt-24 xs:pt-28 sm:pt-32 md:pt-36">
+      <div className="container mx-auto px-2 xs:px-4 text-center text-white relative z-10 pt-32 xs:pt-36 sm:pt-40 md:pt-44">
         <div className="max-w-6xl mx-auto space-y-4 xs:space-y-6 sm:space-y-8">
 
-          {/* Main Title - Reduced mobile gap from AICTE badge */}
-          <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-blue-100 mb-0 leading-tight">
-              Two day National Conference on 
+          {/* Main Title - Increased spacing from AICTE badge */}
+          <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-blue-100 mb-2 leading-tight">
+              Two day National Conference on
             </p>
-          <h1 className="text-sm xs:text-base sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight animate-slide-up mt-6 xs:mt-8 sm:mt-8 md:mt-8 px-2 xs:px-4 whitespace-nowrap">
+          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight animate-slide-up mt-2 xs:mt-4 sm:mt-6 md:mt-8 px-2 xs:px-4">
             Exploring AI and ML for Better Tomorrow          </h1>
 
           {/* Subtitle */}
