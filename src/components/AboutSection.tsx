@@ -24,14 +24,14 @@ const AboutSection = () => {
                 <div className="text-center lg:text-left">
                   <h3 className="text-xl font-bold text-primary mb-4 text-center">Conference Preamble</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4 text-justify">
-                    NCEAMBT 2025 is organized on 26th and 27th of September 2025 at Sree Siddaganga College of Arts, Science and Commerce, Tumakuru, Karnataka. This conference provides an opportunity to bring together researchers, Academicians, industry experts, innovators and students to explore the transformative potential of Artificial Intelligence and Machine Learning across diverse domains.
-                  </p>
+                    NCEAMBT 2025 is organized on 26th and 27th of September 2025 at Sree Siddaganga College of Arts, Science and Commerce, Tumakuru, Karnataka. This conference provides an opportunity to bring together researchers, academicians, industry experts, innovators and students to explore the transformative potential of Artificial Intelligence and Machine Learning across diverse domains. 
+                    </p>
                   <p className="text-muted-foreground leading-relaxed mb-4 text-justify">
                     This conference serves as a vibrant platform to exchange cutting edge ideas, present breakthrough research, showcase innovative applications, and discuss ethical, societal and policy implications of AI and ML in shaping a sustainable and intelligent future.
                   </p>
                   <p className="text-muted-foreground leading-relaxed text-justify">
-                    We invite original research articles, case studies, and project-based submissions (up to 6 pages in length) from undergraduate/postgraduate students, research scholars, faculty members, and industry professionals. All accepted papers will be published in the conference proceedings with an ISBN. Selected papers may also be recommended for publication in peer-reviewed journals.
-                  </p>
+                   We invite original research articles, case studies, and project-based submissions (up to 6 pages in length) from undergraduate/postgraduate students, research scholars, faculty members, and industry professionals. All accepted papers will be published in the conference proceedings with an ISBN. Selected papers may also be recommended for publication in peer-reviewed journals.
+                   </p>
                 </div>
                 <div className="flex justify-center">
                   <img 
