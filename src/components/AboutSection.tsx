@@ -81,7 +81,7 @@ const AboutSection = () => {
               <div className="space-y-2 text-xs">
                 <div className="flex items-center space-x-2">
                   <Users size={14} className="text-accent" />
-                  <span>1,400-1,600 students enrolled</span>
+                  <span>1700 students enrolled</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <GraduationCap size={14} className="text-accent" />
