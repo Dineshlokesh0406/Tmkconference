@@ -76,12 +76,12 @@ const AboutSection = () => {
             </CardHeader>
             <CardContent className="pt-0">
               <p className="text-muted-foreground leading-relaxed mb-3 text-sm text-justify">
-                Sree Siddaganga College of Arts, Science & Commerce, (SSCASC), Tumkur was founded in 1966 by the renowned Sree Siddaganga Education Society, under the patronage of Dr. Sree Sree Sivakumara Mahaswamiji. The college is affiliated to Tumkur University and recognized by the University Grants Commission, New Delhi. SSCASC is a premier First Grade College in Tumkur District and it offers wide range of 5 undergraduate programs (B.A., B.Sc., B.Com., BBM and BCA), along with one postgraduate course (M.Com.) and research center in Commerce. The college enrols about 1,400–1,600 students, supported by 73 teaching faculty (08 Ph.D.) and 36 non-teaching staff, fostering a robust academic environment. The college is NAAC Accredited with an 'A' grade (CGPA:3.16) in its 4th cycle (2024).
+                Sree Siddaganga College of Arts, Science & Commerce, (SSCASC), Tumkur was founded in 1966 by the renowned Sree Siddaganga Education Society, under the patronage of Dr. Sree Sree Sivakumara Mahaswamiji. The college is affiliated to Tumkur University and recognized by the University Grants Commission, New Delhi. SSCASC is a premier First Grade College in Tumkur District and it offers wide range of 5 undergraduate programs (B.A., B.Sc., B.Com., BBM and BCA), along with one postgraduate course (M.Com.) and research center in Commerce. The college enrols about 1,700 students, supported by 73 teaching faculty (08 Ph.D.) and 36 non-teaching staff, fostering a robust academic environment. The college is NAAC Accredited with an 'A' grade (CGPA:3.16) in its 4th cycle (2024).
               </p>
               <div className="space-y-2 text-xs">
                 <div className="flex items-center space-x-2">
                   <Users size={14} className="text-accent" />
-                  <span>1700 students enrolled</span>
+                  <span>1,700 students enrolled</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <GraduationCap size={14} className="text-accent" />
