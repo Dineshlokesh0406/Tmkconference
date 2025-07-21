@@ -27,13 +27,13 @@ const Committee = () => {
   const keynoteData = [
     {
       name: "Dr. Shreedhara K S",
-      title: "Professor in Computer Science Engineering",
+      title: "Professor in CSE",
       institution: "University BDT College of Engineering, Davanagere, Karnataka",
       image: shreedharImg
     },
     {
       name: "Dr. Dilip Kumar S M",
-      title: "Professor in Computer Science Engineering",
+      title: "Professor in CSE",
       institution: "University Visvesvaraya College of Engineering, Bangalore",
       image: dileepImg
     },
