@@ -38,7 +38,7 @@ const Committee = () => {
       image: dileepImg
     },
     {
-      name: "Dr. Mahesha BR Pandit",
+      name: "Dr. Mahesha B R Pandit",
       title: "Chief Technology Officer",
       institution: "Canarys Automations Limited, Bangalore",
       image: maheshImg
