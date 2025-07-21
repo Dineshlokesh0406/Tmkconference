@@ -129,25 +129,32 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
-          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0 lg:space-x-4">
-            <div className="text-center lg:text-left flex-1">
+          <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+            <div className="text-center lg:text-left">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
-                © 2025 NCEAMBT - Dept of MCA, SIT, Tumkur. All rights reserved.
+                © 2025 NCEAMBT - Sree Siddaganga College of Arts, Science & Commerce. All rights reserved.
               </p>
             </div>
-            <div className="text-center flex-1">
+            <div className="text-center">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
-                Developed by <a
+                In association with <a
+                  href="http://www.sit.ac.in/html/department.php?deptid=15"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                >
+                  Dept of MCA , SIT
+                </a> · Developed by <a
                   href="https://www.linkedin.com/in/dineshlokesh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
                 >
-                  Dinesh, MCA student, SIT
+                  Dinesh, Dept of MCA, SIT
                 </a>
               </p>
             </div>
-            <div className="text-center lg:text-right flex-1">
+            <div className="text-center lg:text-right">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
                 Sponsored by <a
                   href="https://www.aicte.gov.in/"

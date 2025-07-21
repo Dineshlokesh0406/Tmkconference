@@ -107,7 +107,7 @@ const HeroSection = () => {
           <p className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-blue-100 mb-2 leading-tight">
               Two day National Conference on
             </p>
-          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold leading-tight animate-slide-up mt-2 xs:mt-4 sm:mt-6 md:mt-8 px-2 xs:px-4">
+          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight animate-slide-up mt-2 xs:mt-4 sm:mt-6 md:mt-8 px-2 xs:px-4">
             Exploring AI and ML for Better Tomorrow          </h1>
 
           {/* Subtitle */}
