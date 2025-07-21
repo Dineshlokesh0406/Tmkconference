@@ -100,7 +100,7 @@ const HeroSection = () => {
 
 
       {/* Hero Content */}
-      <div className="container mx-auto px-2 xs:px-4 text-center text-white relative z-10 pt-32 xs:pt-36 sm:pt-40 md:pt-44">
+      <div className="container mx-auto px-2 xs:px-4 text-center text-white relative z-10 pt-32 xs:pt-36 sm:pt-40 md:pt-44 lg:pt-52 xl:pt-56 2xl:pt-60">
         <div className="max-w-6xl mx-auto space-y-4 xs:space-y-6 sm:space-y-8">
 
           {/* Main Title - Increased spacing from AICTE badge */}
