@@ -64,14 +64,14 @@ const HeroSection = () => {
           <img
               src={aicteLogo}
               alt="AICTE Logo"
-              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
+              className="h-12 w-12 xs:h-14 xs:w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full"
             />
 
           {/* S1 Image */}
           <img
               src={s1Image}
               alt="S1 Image"
-              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
+              className="h-12 w-12 xs:h-14 xs:w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full"
             />
 
 
@@ -84,7 +84,7 @@ const HeroSection = () => {
           <img
               src={s2Image}
               alt="S2 Image"
-              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
+              className="h-12 w-12 xs:h-14 xs:w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full"
             />
 
           {/* College Logo */}
@@ -92,7 +92,7 @@ const HeroSection = () => {
           <img
               src={collegeLogo}
               alt="College Logo"
-              className="h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 lg:h-12 lg:w-12 rounded-full"
+              className="h-12 w-12 xs:h-14 xs:w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 rounded-full"
             />
         </div>
       </div>

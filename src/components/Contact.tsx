@@ -8,21 +8,21 @@ import lingadevaruImg from '@/assets/lingadevaru.jpg';
 const Contact: React.FC = () => {
   const contactPersons = [
     {
-      name: "K S Lingadevarappa",
-      role: "Professor and Head",
+      name: "Mr.K S Lingadevarappa",
+      role: "Head, Dept of Computer Science",
       phone: "9632246106",
       icon: User,
       image: lingadevaruImg
     },
     {
-      name: "Mamatha M",
+      name: "Mrs. Mamatha M",
       role: "Coordinator",
       phone: "7892605749",
       icon: User,
       image: mamathaImg
     },
     {
-      name: "Sowjanya G",
+      name: "Mrs. Sowjanya G",
       role: "Co-coordinator",
       phone: "9738120370",
       icon: User,
@@ -133,7 +133,7 @@ const Contact: React.FC = () => {
                   {contactPersons.map((person, index) => (
                     <div key={index} className="flex items-center justify-between p-4 bg-muted/50 rounded-lg">
                       <div className="flex items-center space-x-3">
-                        <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30">
+                        <div className="w-24 h-24 overflow-hidden rounded-full border-2 border-secondary/30">
                           <img
                             src={person.image}
                             alt={person.name}

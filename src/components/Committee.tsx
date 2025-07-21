@@ -27,7 +27,7 @@ const Committee = () => {
   const keynoteData = [
     {
       name: "Dr. Shreedhara K S",
-      title: "Professor of CSE",
+      title: "Professor in Computer Science Engineering",
       institution: "University BDT College of Engineering, Davanagere, Karnataka",
       image: shreedharImg
     },
@@ -54,13 +54,13 @@ const Committee = () => {
   const advisoryCommittee = [
     {
       name: "Dr. Dileep A.D.",
-      title: "Professor, Dept of Computer Science and Engineering & Dean Administration",
+      title: "Professor, Dept of CSE & Dean Administration",
       institution: "Indian Institute of Technology, Dharwad",
       image: dileepAdImg
     },
     {
       name: "Dr. R. Padmavathy",
-      title: "Professor & Former Head, Dept of Computer Science and Engineering",
+      title: "Professor & Former Head, Dept of CSE",
       institution: "National Institute of Technology, Warangal",
       image: padmavathyImg
     },
@@ -102,7 +102,7 @@ const Committee = () => {
     },
     {
       name: "Dr. Sunitha N.R.",
-      title: "Professor and Head, Dept of Computer Science and Engineering",
+      title: "Professor and Head, Dept of CSE",
       institution: "SIT, Tumakuru",
       image: sunithanrImg
     }
@@ -121,7 +121,7 @@ const Committee = () => {
     },
     {
       name: "Dr. R Aparna",
-      title: "Professor and Head, Dept of Information Science and Engineering",
+      title: "Professor and Head, Dept of ISE",
       institution: "SIT, Tumakuru"
     },
     {
@@ -135,7 +135,7 @@ const Committee = () => {
       institution: "Sree Siddaganga College of Arts, Science and Commerce, Tumakuru"
     },
     {
-      name: "Dr. Vijay Kumar H S",
+      name: "Dr. Vijaya Kumar H S",
       title: "Assistant Professor, Dept of MCA",
       institution: "SIT, Tumakuru"
     },
@@ -145,13 +145,13 @@ const Committee = () => {
       institution: "SIT, Tumakuru"
     },
     {
-      name: "Mahesha S",
+      name: "Mr. Mahesha S",
       title: "Professor and Head, Dept of Computer Science",
       institution: "SSCASCW, Tumakuru"
     },
     {
-      name: "K S Lingadevarappa",
-      title: "Professor and Head, Dept of Computer Science",
+      name: "Mr. K S Lingadevarappa",
+      title: "Head, Dept of Computer Science",
       institution: "SSCASC, Tumakuru"
     },
     {
@@ -267,7 +267,7 @@ const Committee = () => {
             </CardHeader>
             <CardContent className="text-center">
               <div className="flex flex-col items-center mb-4">
-                <div className="w-20 h-20 overflow-hidden rounded-full border-2 border-accent/30 mb-4">
+                <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-accent/30 mb-4">
                   <img
                     src={chiefPatronImg}
                     alt="Sree Sree Siddalinga Swamiji"
@@ -291,7 +291,7 @@ const Committee = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <div className="flex flex-col items-center mb-2">
-                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                  <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
                     <img
                       src={nanjundappaImg}
                       alt="Sri T K Nanjundappa"
@@ -313,7 +313,7 @@ const Committee = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <div className="flex flex-col items-center mb-2">
-                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                  <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
                     <img
                       src={shivakumaraiahImg}
                       alt="Dr. Shivakumaraiah"
@@ -335,7 +335,7 @@ const Committee = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <div className="flex flex-col items-center mb-2">
-                  <div className="w-14 h-14 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
+                  <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-secondary/30 mb-2">
                     <img
                       src={yogeshwarappaImg}
                       alt="Dr. D N Yogeeshwarappa"
@@ -360,7 +360,7 @@ const Committee = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <div className="flex flex-col items-center mb-4">
-                  <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-accent/30 mb-3">
+                  <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-accent/30 mb-3">
                     <img
                       src={nijalingappaImg}
                       alt="Dr. T B Nijalingappa"
@@ -382,7 +382,7 @@ const Committee = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <div className="flex flex-col items-center mb-4">
-                  <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-teal-300 mb-3">
+                  <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-teal-300 mb-3">
                     <img
                       src={mahadevaprasannaImg}
                       alt="Dr. S.R. Mahadeva Prasanna"
@@ -411,7 +411,7 @@ const Committee = () => {
             {keynoteData.map((speaker, index) => (
               <Card key={index} className="card-conference text-center">
                 <CardContent className="p-6">
-                  <div className="w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full border-2 border-primary/20">
+                  <div className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-2 border-primary/20">
                     <img
                       src={speaker.image}
                       alt={speaker.name}
@@ -440,7 +440,7 @@ const Committee = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     {member.image ? (
-                      <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-primary/20 flex-shrink-0">
+                      <div className="w-32 h-32 overflow-hidden rounded-full border-2 border-primary/20 flex-shrink-0">
                         <img
                           src={member.image}
                           alt={member.name}

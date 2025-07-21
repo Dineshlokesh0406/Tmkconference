@@ -79,10 +79,10 @@ const Registration = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Registration
+            Registration for paper presentation
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Register now to secure your participation in NCEAMBT 2025
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            Register now to secure your participation for Paper presentation in NCEAMBT-2025
           </p>
         </div>
 
@@ -145,6 +145,46 @@ const Registration = () => {
               </Card>
             );
           })}
+        </div>
+
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
+            Registration for partcipation
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            Register now to secure your participation in NCEAMBT-2025
+          </p>
+        </div>
+
+        {/* Participation Registration Card */}
+        <div className="flex justify-center mb-12">
+          <div className="w-full max-w-xs">
+            <Card className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 hover:shadow-xl transition-all duration-300 hover:scale-105 animate-slide-up">
+              <CardContent className="p-6 text-center">
+                {/* Icon */}
+                <div className="w-16 h-16 mx-auto mb-4 bg-white rounded-full flex items-center justify-center shadow-md">
+                  <GraduationCap className="text-blue-600" size={28} />
+                </div>
+
+                {/* Category */}
+                <h3 className="font-bold text-gray-800 mb-2 text-sm leading-tight">
+                  Academicians/Faculty/Research Scholars
+                </h3>
+
+                {/* Price */}
+                <div className="text-3xl font-bold text-blue-700 mb-3">
+                  ₹300
+                </div>
+
+                {/* Description */}
+                <p className="text-xs text-gray-600 leading-relaxed">
+                  Participation fee for Academicians, faculty members and Research Scholars               </p>
+
+                {/* Decorative element */}
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-50 to-blue-100 opacity-30 rounded-full -translate-y-10 translate-x-10"></div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         {/* Special Offer */}
@@ -225,6 +265,7 @@ const Registration = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
