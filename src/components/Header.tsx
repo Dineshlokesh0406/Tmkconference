@@ -62,19 +62,19 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full max-w-full overflow-hidden ${
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="w-full px-3 sm:px-4 max-w-full">
-        <div className="flex items-center justify-between h-16 lg:h-20 max-w-full overflow-hidden">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo and Title */}
-          <div className="flex items-center space-x-3 min-w-0 flex-shrink-0">
+          <div className="flex items-center space-x-3">
             <img
               src={aiLogo}
               alt="AI Conference Logo"
-              className="h-10 w-10 lg:h-12 lg:w-12 rounded-full flex-shrink-0"
+              className="hidden md:block h-10 w-10 lg:h-12 lg:w-12 rounded-full"
             />
-            <div className="hidden md:block">
+            <div>
               <h1 className={`text-lg lg:text-xl font-bold ${isScrolled ? 'text-primary' : 'text-yellow-400'}`}>NCEAMBT 2025</h1>
             </div>
           </div>
@@ -151,22 +151,21 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu */}
-          <div className="flex items-center lg:hidden">
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className={`transition-colors duration-300 p-2 ${
-                    isScrolled
-                      ? 'text-foreground hover:bg-accent'
-                      : 'text-white hover:bg-white/10'
-                  }`}
-                >
-                  <Menu size={20} />
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right" className="w-[85vw] max-w-sm">
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild className="lg:hidden">
+              <Button
+                variant="ghost"
+                size="sm"
+                className={`transition-colors duration-300 ${
+                  isScrolled
+                    ? 'text-foreground hover:bg-accent'
+                    : 'text-white hover:bg-white/10'
+                }`}
+              >
+                <Menu size={20} />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-80">
               <div className="flex flex-col space-y-6 mt-8">
                 <div className="flex items-center space-x-3 pb-4 border-b">
                   <img
@@ -221,7 +220,6 @@ const Header = () => {
               </div>
             </SheetContent>
           </Sheet>
-          </div>
         </div>
       </div>
     </header>
