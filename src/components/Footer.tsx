@@ -136,23 +136,28 @@ const Footer = () => {
               </p>
             </div>
             <div className="text-center">
-              <p className="text-gray-300 dark:text-gray-600 text-sm">
-                In association with <a
-                  href="http://www.sit.ac.in/html/department.php?deptid=15"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
-                >
-                  Dept of MCA , SIT
-                </a> · Developed by <a
-                  href="https://www.linkedin.com/in/dineshlokesh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
-                >
-                  Dinesh, Dept of MCA, SIT
-                </a>
-              </p>
+              <div className="text-gray-300 dark:text-gray-600 text-sm space-y-1">
+                <p>
+                  In association with <a
+                    href="http://www.sit.ac.in/html/department.php?deptid=15"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                  >
+                    Dept of MCA , SIT
+                  </a>
+                </p>
+                <p>
+                  Developed by <a
+                    href="https://www.linkedin.com/in/dineshlokesh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cyan-400 dark:text-blue-600 font-semibold hover:text-cyan-300 dark:hover:text-blue-800 transition-colors"
+                  >
+                    Dinesh, Dept of MCA, SIT
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="text-center lg:text-right">
               <p className="text-gray-300 dark:text-gray-600 text-sm">
