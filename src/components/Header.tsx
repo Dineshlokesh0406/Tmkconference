@@ -62,11 +62,11 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full ${
       isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+      <div className="w-full px-4 max-w-full">
+        <div className="flex items-center justify-between h-16 lg:h-20 w-full max-w-full">
           {/* Logo and Title */}
           <div className="flex items-center space-x-3">
             <img
@@ -151,21 +151,22 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu */}
-          <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild className="lg:hidden">
-              <Button
-                variant="ghost"
-                size="sm"
-                className={`transition-colors duration-300 ${
-                  isScrolled
-                    ? 'text-foreground hover:bg-accent'
-                    : 'text-white hover:bg-white/10'
-                }`}
-              >
-                <Menu size={20} />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-80">
+          <div className="lg:hidden flex items-center">
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className={`transition-colors duration-300 mr-0 ${
+                    isScrolled
+                      ? 'text-foreground hover:bg-accent'
+                      : 'text-white hover:bg-white/10'
+                  }`}
+                >
+                  <Menu size={20} />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[85vw] max-w-sm">
               <div className="flex flex-col space-y-6 mt-8">
                 <div className="flex items-center space-x-3 pb-4 border-b">
                   <img
@@ -220,6 +221,7 @@ const Header = () => {
               </div>
             </SheetContent>
           </Sheet>
+          </div>
         </div>
       </div>
     </header>
