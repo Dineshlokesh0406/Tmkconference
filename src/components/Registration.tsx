@@ -173,7 +173,7 @@ const Registration = () => {
 
                 {/* Price */}
                 <div className="text-3xl font-bold text-blue-700 mb-3">
-                  ₹300
+                  ₹400
                 </div>
 
                 {/* Description */}
