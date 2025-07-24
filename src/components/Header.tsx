@@ -72,9 +72,9 @@ const Header = () => {
             <img
               src={aiLogo}
               alt="AI Conference Logo"
-              className="h-10 w-10 lg:h-12 lg:w-12 rounded-full"
+              className="hidden md:block h-10 w-10 lg:h-12 lg:w-12 rounded-full"
             />
-            <div className="hidden md:block">
+            <div>
               <h1 className={`text-lg lg:text-xl font-bold ${isScrolled ? 'text-primary' : 'text-yellow-400'}`}>NCEAMBT 2025</h1>
             </div>
           </div>
