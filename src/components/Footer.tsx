@@ -14,7 +14,7 @@ const Footer = () => {
   const importantDates = [
     { event: 'Paper Submission', date: '25th Aug 2025' },
     { event: 'Acceptance Notification', date: '30th Aug 2025' },
-    { event: 'Camera-ready Submission', date: '01th Sep 2025' },
+    { event: 'Camera-ready Submission', date: '1st Sep 2025' },
     { event: 'Conference Dates', date: '5th Sep 2025' }
   ];
 
