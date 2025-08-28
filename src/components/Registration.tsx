@@ -251,7 +251,7 @@ const Registration = () => {
                     </div>
                     <div className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p>Complete registration and submit camera ready paper on or before 01.09.2025</p>
+                      <p>Complete registration and submit camera ready paper on or before 05.09.2025</p>
                     </div>
                     <div className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
