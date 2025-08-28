@@ -18,7 +18,7 @@ const HeroSection = () => {
   });
 
   useEffect(() => {
-    const conferenceDate = new Date('2025-09-05T09:00:00');
+    const conferenceDate = new Date('2025-09-26T09:00:00');
     
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -123,7 +123,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-12 text-lg animate-fade-in">
             <div className="flex items-center space-x-2">
               <Calendar className="text-accent" size={20} />
-              <span>5th September 2025</span>
+              <span>26th - 27th September 2025</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="text-accent" size={20} />
