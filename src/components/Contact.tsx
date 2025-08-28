@@ -115,7 +115,7 @@ const Contact: React.FC = () => {
                     <Clock className="text-accent" size={20} />
                     <h4 className="font-semibold text-foreground">Conference Dates</h4>
                   </div>
-                  <p className="text-lg font-bold text-primary">26th & 27th September 2025</p>
+                  <p className="text-lg font-bold text-primary">5th September 2025</p>
                 </div>
               </CardContent>
             </Card>
