@@ -168,7 +168,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-conference-teal rounded-full mt-2 flex-shrink-0"></div>
-                    <p>All submissions must be sent before 25.08.2025</p>
+                    <p>All submissions must be sent before 05.09.2025(Extended)</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-conference-teal rounded-full mt-2 flex-shrink-0"></div>
