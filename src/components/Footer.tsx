@@ -12,10 +12,10 @@ const Footer = () => {
   ];
 
   const importantDates = [
-    { event: 'Paper Submission', date: '25th Aug 2025' },
+    { event: 'Paper Submission', date: '5th Sep 2025(Extended)' },
     { event: 'Acceptance Notification', date: '30th Aug 2025' },
-    { event: 'Camera-ready Submission', date: '1st Sep 2025' },
-    { event: 'Conference Dates', date: '5th Sep 2025' }
+    { event: 'Camera-ready Submission', date: '11th Sep 2025' },
+    { event: 'Conference Dates', date: '26th - 27th Sep 2025' }
   ];
 
   const scrollToSection = (href: string) => {
