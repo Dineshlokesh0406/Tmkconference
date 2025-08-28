@@ -224,7 +224,7 @@ const Guidelines = () => {
                       {
                         step: 2,
                         title: "Submit via Email",
-                        description: "Send your paper to sscasc.cs.conference@gmail.com before 25.08.2025"
+                        description: "Send your paper to sscasc.cs.conference@gmail.com before 05.09.2025"
                       },
                       {
                         step: 3,
@@ -239,7 +239,7 @@ const Guidelines = () => {
                       {
                         step: 5,
                         title: "Camera-Ready Submission",
-                        description: "Submit final version incorporating reviewer feedback by 01.09.2025"
+                        description: "Submit final version incorporating reviewer feedback by 11.09.2025"
                       },
                       {
                         step: 6,
