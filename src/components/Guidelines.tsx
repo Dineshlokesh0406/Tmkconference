@@ -239,7 +239,7 @@ const Guidelines = () => {
                       {
                         step: 5,
                         title: "Camera-Ready Submission",
-                        description: "Submit final version incorporating reviewer feedback by 10.09.2025"
+                        description: "Submit final version incorporating reviewer feedback by 1.09.2025"
                       },
                       {
                         step: 6,
