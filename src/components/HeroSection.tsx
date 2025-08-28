@@ -18,7 +18,7 @@ const HeroSection = () => {
   });
 
   useEffect(() => {
-    const conferenceDate = new Date('2025-09-26T09:00:00');
+    const conferenceDate = new Date('2025-09-05T09:00:00');
     
     const updateCountdown = () => {
       const now = new Date().getTime();
