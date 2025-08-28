@@ -15,7 +15,7 @@ const Footer = () => {
     { event: 'Paper Submission', date: '25th Aug 2025' },
     { event: 'Acceptance Notification', date: '30th Aug 2025' },
     { event: 'Camera-ready Submission', date: '10th Sep 2025' },
-    { event: 'Conference Dates', date: '26th & 27th Sep 2025' }
+    { event: 'Conference Dates', date: '5th Sep 2025' }
   ];
 
   const scrollToSection = (href: string) => {
