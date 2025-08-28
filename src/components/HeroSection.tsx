@@ -123,7 +123,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-12 text-lg animate-fade-in">
             <div className="flex items-center space-x-2">
               <Calendar className="text-accent" size={20} />
-              <span>26th - 27th September 2025</span>
+              <span>5th September 2025</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="text-accent" size={20} />
