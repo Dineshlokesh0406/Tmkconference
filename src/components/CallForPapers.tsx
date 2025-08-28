@@ -76,11 +76,11 @@ const CallForPapers = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-accent/5 rounded-lg">
                     <span className="font-medium text-foreground">Paper Submission Deadline</span>
-                    <span className="font-bold text-foreground">25.08.2025</span>
+                    <span className="font-bold text-foreground">05.09.2025</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-secondary/5 rounded-lg">
                     <span className="font-medium text-foreground">Acceptance Notification</span>
-                    <span className="font-bold text-foreground">30.08.2025</span>
+                    <span className="font-bold text-foreground">10.09.2025</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-lg">
                     <span className="font-medium text-foreground">Camera-ready Submission</span>
