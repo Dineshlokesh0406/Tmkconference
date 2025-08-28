@@ -84,7 +84,7 @@ const CallForPapers = () => {
                   </div>
                   <div className="flex justify-between items-center p-4 bg-primary/5 rounded-lg">
                     <span className="font-medium text-foreground">Camera-ready Submission</span>
-                    <span className="font-bold text-foreground">10.09.2025</span>
+                    <span className="font-bold text-foreground">1.09.2025</span>
                   </div>
                 </div>
               </CardContent>
