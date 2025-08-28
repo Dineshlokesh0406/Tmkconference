@@ -234,7 +234,7 @@ const Guidelines = () => {
                       {
                         step: 4,
                         title: "Acceptance Notification",
-                        description: "Authors will be notified of acceptance/rejection by 30.08.2025"
+                        description: "Authors will be notified of acceptance/rejection by 10.09.2025"
                       },
                       {
                         step: 5,
