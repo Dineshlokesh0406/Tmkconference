@@ -75,7 +75,7 @@ const CallForPapers = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center p-4 bg-accent/5 rounded-lg">
-                    <span className="font-medium text-foreground">Paper Submission Deadline</span>
+                    <span className="font-medium text-foreground">Paper Submission Deadline(Extended)</span>
                     <span className="font-bold text-foreground">05.09.2025</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-secondary/5 rounded-lg">
