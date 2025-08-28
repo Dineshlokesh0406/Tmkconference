@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Calendar size={16} className="text-cyan-400 dark:text-blue-600" />
-                <span className="text-gray-200 dark:text-gray-800">26th - 27th September 2025</span>
+                <span className="text-gray-200 dark:text-gray-800">5th September 2025</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-cyan-400 dark:text-blue-600" />
