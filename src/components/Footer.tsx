@@ -12,10 +12,10 @@ const Footer = () => {
   ];
 
   const importantDates = [
-    { event: 'Paper Submission', date: '25th Aug 2025' },
+    { event: 'Paper Submission', date: '5th Sep 2025(Extended)' },
     { event: 'Acceptance Notification', date: '30th Aug 2025' },
-    { event: 'Camera-ready Submission', date: '10th Sep 2025' },
-    { event: 'Conference Dates', date: '26th & 27th Sep 2025' }
+    { event: 'Camera-ready Submission', date: '11th Sep 2025' },
+    { event: 'Conference Dates', date: '26th-27th Sep 2025' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2">
                 <Calendar size={16} className="text-cyan-400 dark:text-blue-600" />
-                <span className="text-gray-200 dark:text-gray-800">26th - 27th September 2025</span>
+                <span className="text-gray-200 dark:text-gray-800">26th-27th September 2025</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} className="text-cyan-400 dark:text-blue-600" />
