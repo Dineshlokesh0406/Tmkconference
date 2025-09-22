@@ -9,6 +9,7 @@ import Guidelines from '@/components/Guidelines';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
+import HomePopups from '@/components/HomePopups';
 
 const Index = () => {
   return (
@@ -48,6 +49,9 @@ const Index = () => {
       
       {/* Back to Top Button */}
       <BackToTop />
+
+      {/* Sequential popups on homepage load */}
+      <HomePopups />
     </div>
   );
 };

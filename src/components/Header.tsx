@@ -11,6 +11,8 @@ import {
 import aiLogo from '@/assets/ai-illustration.jpg';
 import brochurePdf from '@/assets/brochure.pdf';
 import posterPdf from '@/assets/Poster.pdf';
+import popup1Image from '@/assets/popup1.jpg';
+import popup2Image from '@/assets/popup2.jpg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -145,6 +147,20 @@ const Header = () => {
                   <Download size={16} className="mr-2" />
                   Conference Poster
                 </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(popup1Image, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Valediction
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(popup2Image, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Inauguration
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -215,6 +231,22 @@ const Header = () => {
                   >
                     <Download size={16} />
                     <span>Conference Poster</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(popup1Image, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Valediction</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(popup2Image, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Inauguration</span>
                   </Button>
 
                 </div>
