@@ -121,9 +121,12 @@ const HeroSection = () => {
 
           {/* Conference Details */}
           <div className="flex flex-wrap justify-center gap-6 mb-12 text-lg animate-fade-in">
-            <div className="flex items-center space-x-2">
-              <Calendar className="text-accent" size={20} />
-              <span>Registration starts at 8:00 AM on 26th September 2025.</span>
+            <div className="flex items-start space-x-2">
+              <Calendar className="text-accent mt-0.5" size={20} />
+              <div className="leading-tight text-center sm:text-left">
+                <span className="sm:inline">Registration starts at 8:00 AM on </span>
+                <span className="block sm:inline">26th September 2025.</span>
+              </div>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="text-accent" size={20} />
