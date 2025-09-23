@@ -280,22 +280,6 @@ const Header = () => {
                     <Download size={16} />
                     <span>Conference Poster</span>
                   </Button>
-                  <Button
-                    variant="outline"
-                    className="space-x-2 justify-start"
-                    onClick={() => window.open(day1Pdf, '_blank')}
-                  >
-                    <Download size={16} />
-                    <span>Day 1 Sessions</span>
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="space-x-2 justify-start"
-                    onClick={() => window.open(day2Pdf, '_blank')}
-                  >
-                    <Download size={16} />
-                    <span>Day 2 Sessions</span>
-                  </Button>
 
                 </div>
               </div>
