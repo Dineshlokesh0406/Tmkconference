@@ -13,6 +13,8 @@ import brochurePdf from '@/assets/brochure.pdf';
 import posterPdf from '@/assets/Poster.pdf';
 import popup1Image from '@/assets/popup1.jpg';
 import popup2Image from '@/assets/popup2.jpg';
+import day1Pdf from '@/assets/Day1_Session_detail.pdf';
+import day2Pdf from '@/assets/Day2_session_details.pdf';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,7 +50,7 @@ const Header = () => {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Call for Papers', href: '#call-for-papers' },
-    { label: 'Tracks', href: '#tracks' },
+    { label: 'Sessions', href: '#sessions' },
     { label: 'Committee', href: '#committee' },
     { label: 'Registration', href: '#registration' },
     { label: 'Guidelines', href: '#guidelines' },
@@ -161,6 +163,20 @@ const Header = () => {
                   <Download size={16} className="mr-2" />
                   Inauguration
                 </DropdownMenuItem>
+              <DropdownMenuItem
+                onClick={() => window.open(day1Pdf, '_blank')}
+                className="cursor-pointer"
+              >
+                <Download size={16} className="mr-2" />
+                Day 1 Sessions
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                onClick={() => window.open(day2Pdf, '_blank')}
+                className="cursor-pointer"
+              >
+                <Download size={16} className="mr-2" />
+                Day 2 Sessions
+              </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -247,6 +263,22 @@ const Header = () => {
                   >
                     <Download size={16} />
                     <span>Inauguration</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(day1Pdf, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Day 1 Sessions</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(day2Pdf, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Day 2 Sessions</span>
                   </Button>
 
                 </div>
