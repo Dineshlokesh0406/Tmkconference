@@ -199,7 +199,7 @@ const Header = () => {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[85vw] max-w-sm">
-              <div className="flex flex-col space-y-6 mt-8">
+              <div className="flex flex-col space-y-6 mt-8 overflow-y-auto max-h-[85vh] pr-2">
                 <div className="flex items-center space-x-3 pb-4 border-b">
                   <img
                     src={aiLogo}
