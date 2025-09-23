@@ -136,6 +136,34 @@ const Header = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48">
                 <DropdownMenuItem
+                  onClick={() => window.open(day1Pdf, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Day 1 Sessions
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(day2Pdf, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Day 2 Sessions
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(popup2Image, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Inauguration
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => window.open(popup1Image, '_blank')}
+                  className="cursor-pointer"
+                >
+                  <Download size={16} className="mr-2" />
+                  Valediction
+                </DropdownMenuItem>
+                <DropdownMenuItem
                   onClick={() => window.open(brochurePdf, '_blank')}
                   className="cursor-pointer"
                 >
@@ -149,34 +177,6 @@ const Header = () => {
                   <Download size={16} className="mr-2" />
                   Conference Poster
                 </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => window.open(popup1Image, '_blank')}
-                  className="cursor-pointer"
-                >
-                  <Download size={16} className="mr-2" />
-                  Valediction
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  onClick={() => window.open(popup2Image, '_blank')}
-                  className="cursor-pointer"
-                >
-                  <Download size={16} className="mr-2" />
-                  Inauguration
-                </DropdownMenuItem>
-              <DropdownMenuItem
-                onClick={() => window.open(day1Pdf, '_blank')}
-                className="cursor-pointer"
-              >
-                <Download size={16} className="mr-2" />
-                Day 1 Sessions
-              </DropdownMenuItem>
-              <DropdownMenuItem
-                onClick={() => window.open(day2Pdf, '_blank')}
-                className="cursor-pointer"
-              >
-                <Download size={16} className="mr-2" />
-                Day 2 Sessions
-              </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -235,18 +235,26 @@ const Header = () => {
                   <Button
                     variant="outline"
                     className="space-x-2 justify-start"
-                    onClick={() => window.open(brochurePdf, '_blank')}
+                    onClick={() => window.open(day1Pdf, '_blank')}
                   >
                     <Download size={16} />
-                    <span>Conference Brochure</span>
+                    <span>Day 1 Sessions</span>
                   </Button>
                   <Button
                     variant="outline"
                     className="space-x-2 justify-start"
-                    onClick={() => window.open(posterPdf, '_blank')}
+                    onClick={() => window.open(day2Pdf, '_blank')}
                   >
                     <Download size={16} />
-                    <span>Conference Poster</span>
+                    <span>Day 2 Sessions</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(popup2Image, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Inauguration</span>
                   </Button>
                   <Button
                     variant="outline"
@@ -259,10 +267,18 @@ const Header = () => {
                   <Button
                     variant="outline"
                     className="space-x-2 justify-start"
-                    onClick={() => window.open(popup2Image, '_blank')}
+                    onClick={() => window.open(brochurePdf, '_blank')}
                   >
                     <Download size={16} />
-                    <span>Inauguration</span>
+                    <span>Conference Brochure</span>
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="space-x-2 justify-start"
+                    onClick={() => window.open(posterPdf, '_blank')}
+                  >
+                    <Download size={16} />
+                    <span>Conference Poster</span>
                   </Button>
                   <Button
                     variant="outline"
